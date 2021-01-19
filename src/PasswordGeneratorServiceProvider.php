@@ -13,7 +13,7 @@ class PasswordGeneratorServiceProvider extends ServiceProvider {
         });
     }
 
-    public function provides() {
+    public function provides() : array{
         return ['password-generator'];
     }
 }
