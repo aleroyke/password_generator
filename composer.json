@@ -1,0 +1,23 @@
+{
+    "name": "pantherastudio/password-generator",
+    "description": "Générateur de mot de passe aléatoire.",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0",
+    "authors": [
+        {
+            "name": "Antoine LE ROY",
+            "email": "hello@antoineleroy.fr"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "PantheraStudio\\PasswordGenerator\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.3",
+        "illuminate/support": "^8.0"
+    }
+}
