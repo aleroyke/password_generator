@@ -7,6 +7,8 @@ class PasswordGenerator {
         $charsList = str_split("ABCDEFGHIJKLMOPQRSTUVWXYZabcdefghijklmopqrstuvwxyz0123456789");
         $result = "";
 
+        $limit = $limit + 1;
+
         for ($i = 1; $i < $limit; $i++) {
             $result .= $charsList[rand(0, 59)];
         }
